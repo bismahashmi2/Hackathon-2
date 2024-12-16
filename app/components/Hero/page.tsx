@@ -39,7 +39,7 @@ const Hero = () => {
 
      <div className='w-full h-[770px] bg-[#FAFAFA] hidden lg:block'>
     <div className='flex flex-col justfy-center items-center pt-[70px]'>
-      <h3 className='text-[24px] text-[#252B42] font-bold'>EDITOR'S PICK</h3>
+      <h3 className='text-[24px] text-[#252B42] font-bold'>EDITOR &apos; PICK</h3>
       <p className='text-[14px] text-[#737373] mt-[5px]'>Problems trying to resolve the conflict between </p>
     </div>
 
@@ -57,7 +57,7 @@ const Hero = () => {
     <div className='h-[1850px] bg-[#FAFAFA] block lg:hidden flex flex-col justfy-center items-center'>
 
     <div className='flex flex-col justfy-center items-center pt-[70px]'>
-      <h3 className='text-[24px] text-[#252B42] font-bold'>EDITOR'S PICK</h3>
+      <h3 className='text-[24px] text-[#252B42] font-bold'>EDITOR &apos; S PICK</h3>
       <p className=' text-[14px] text-[#737373] mt-[5px] w-[196px] text-center'>Problems trying to resolve <br /> the conflict between </p>
     </div>
 
@@ -250,10 +250,10 @@ const Hero = () => {
         
         <div>
         <h4 className='text-[20px] text-[#252B42] mt-[12px]'>Loudest à la Madison #1 
-        <br /> (L'integral) </h4>
+        <br /> (L &apos;integral) </h4>
 
         <p className='text-[14px] text-[#737373] mt-[10px]'>We focus on ergonomics and meeting <br />
-         you where you work. It's only a <br /> keystroke away.</p>
+         you where you work. It &apos;s only a <br /> keystroke away.</p>
          </div>
          
          <div className='flex flex-row space-x-[80px] mt-[18px]'>
@@ -291,10 +291,10 @@ const Hero = () => {
         
         <div>
         <h4 className='text-[20px] text-[#252B42] mt-[12px]'>Loudest à la Madison #1 
-        <br /> (L'integral) </h4>
+        <br /> (L&apos;integral) </h4>
 
         <p className='text-[14px] text-[#737373] mt-[10px]'>We focus on ergonomics and meeting <br />
-         you where you work. It's only a <br /> keystroke away.</p>
+         you where you work. It&npos;s only a <br /> keystroke away.</p>
          </div>
          
          <div className='flex flex-row space-x-[80px] mt-[18px]'>
@@ -332,10 +332,10 @@ const Hero = () => {
         
         <div>
         <h4 className='text-[20px] text-[#252B42] mt-[12px]'>Loudest à la Madison #1 
-        <br /> (L'integral) </h4>
+        <br /> (L &npos;integral) </h4>
 
         <p className='text-[14px] text-[#737373] mt-[10px]'>We focus on ergonomics and meeting <br />
-         you where you work. It's only a <br /> keystroke away.</p>
+         you where you work. It &apos;s only a <br /> keystroke away.</p>
          </div>
          
          <div className='flex flex-row space-x-[80px] mt-[18px]'>
@@ -389,10 +389,10 @@ const Hero = () => {
         
         <div>
         <h4 className='text-[20px] text-[#252B42] mt-[12px]'>Loudest à la Madison #1 
-        <br /> (L'integral) </h4>
+        <br /> (L&apos;integral) </h4>
 
         <p className='text-[14px] text-[#737373] mt-[10px]'>We focus on ergonomics and meeting <br />
-         you where you work. It's only a <br /> keystroke away.</p>
+         you where you work. It&apos;s only a <br /> keystroke away.</p>
          </div>
          
          <div className='flex flex-row space-x-[80px] mt-[18px]'>
@@ -430,10 +430,10 @@ const Hero = () => {
         
         <div>
         <h4 className='text-[20px] text-[#252B42] mt-[12px]'>Loudest à la Madison #1 
-        <br /> (L'integral) </h4>
+        <br /> (L&apos;integral) </h4>
 
         <p className='text-[14px] text-[#737373] mt-[10px]'>We focus on ergonomics and meeting <br />
-         you where you work. It's only a <br /> keystroke away.</p>
+         you where you work. It&apos;s only a <br /> keystroke away.</p>
          </div>
          
          <div className='flex flex-row space-x-[80px] mt-[18px]'>
@@ -471,10 +471,10 @@ const Hero = () => {
         
         <div>
         <h4 className='text-[20px] text-[#252B42] mt-[12px]'>Loudest à la Madison #1 
-        <br /> (L'integral) </h4>
+        <br /> (L&apos;integral) </h4>
 
         <p className='text-[14px] text-[#737373] mt-[10px]'>We focus on ergonomics and meeting <br />
-         you where you work. It's only a <br /> keystroke away.</p>
+         you where you work. It&apos;s only a <br /> keystroke away.</p>
          </div>
          
          <div className='flex flex-row space-x-[80px] mt-[18px]'>

@@ -1,7 +1,6 @@
 "use client";
-import React, { useState } from "react"
+import React from "react"
 import Link from "next/link"; 
-import Image from "next/image";
 
 // Define the props type
 interface BreadcrumbItem {
