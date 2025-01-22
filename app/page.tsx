@@ -1,15 +1,14 @@
 import React from 'react'
-import Hero from './components/Hero/page'
-import productlist from './[productList]/page'
+import HomePage from './homepage/homepage'
 
-[productlist]
 const page = () => {
   return (
-    <div className='w-full'>
-      <Hero/>
-      
+    <div className='overflow-x-hiddden'>
+      <HomePage />
     </div>
   )
 }
 
 export default page
+
+       

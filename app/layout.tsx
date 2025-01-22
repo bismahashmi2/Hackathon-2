@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
+import Header from "@/components/Header/Header"
 import "./globals.css";
-import Header from "./components/Headers/Header1";
-import Navbar from "./components/Navbar/Navbar1";
-import Footer from "./components/Footer/footer";
+import Footer from "@/components/Footer/footer";
+
 
 
 export const metadata: Metadata = {
@@ -10,18 +10,17 @@ export const metadata: Metadata = {
   description: "This is my first Next.Js Project",
 };
 
-
    type RootLayoutProps = {
     children: React.ReactNode
   }
   const RootLayout: React.FC <RootLayoutProps> = (props) => {
-    console.log (props , "props")
+    
     return (
       <html lang = "en">
-        <body>
-          <Header/>
-          <Navbar/>
-          {props.children}
+       
+        <body className="overflow-x-hidden">
+          <Header />
+         {props.children}
           <Footer/>
         </body>
       </html>

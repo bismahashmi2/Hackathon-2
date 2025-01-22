@@ -1,8 +1,6 @@
-"use client";
 import React from "react"
 import Link from "next/link"; 
 
-// Define the props type
 interface BreadcrumbItem {
   label: string;
   href?: string; // Optional for the current page
@@ -19,7 +17,7 @@ const Breadcrumb: React.FC<BreadcrumbProps> = ({ items }) => {
         {items.map((item, index) => (
           <li key={index}>
             {item.href ? (
-              <Link href={item.href} className="text-blue-500 hover:underline">
+              <Link href={item.href} className="font-bold">
                 {item.label}
               </Link>
             ) : (

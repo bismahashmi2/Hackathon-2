@@ -1,12 +1,16 @@
 import React from 'react'
-import Image from 'next/image'
+import Image from 'next/image';
+import Navbar from '@/components/Navbar/Navbar1';
 
-const Hero = () => {
+const Page = () => {
   return (
-    <div>
-    {/* New collcetion */}
+    
+      <div className='overflow-x-hidden'>
+        <Navbar/>
+    {/* New collection */}
 
-    <div className='text-white font- relative'>
+    <div className='text-white font- relative '>
+    
     <div className='hidden lg:block'>
       <Image
       src='/images/hero girl 1.svg'
@@ -35,7 +39,7 @@ const Hero = () => {
 
     </div>
      
-     {/* Edito's Pick */}
+     {/* Editor's Pick */}
 
      <div className='w-full h-[770px] bg-[#FAFAFA] hidden lg:block'>
     <div className='flex flex-col justfy-center items-center pt-[70px]'>
@@ -43,7 +47,7 @@ const Hero = () => {
       <p className='text-[14px] text-[#737373] mt-[5px]'>Problems trying to resolve the conflict between </p>
     </div>
 
-    <div className='flex flex-row mt-[60px] space-x-4 ml-2'>
+    <div className='flex justify-center mt-[60px] space-x-4 ml-2'>
         <Image src='/images/men.svg' alt='men' width={510} height={500}/>
         <Image src='/images/women.svg' alt='women' width={240} height={500}/>
        <div className='flex flex-col space-y-7'>
@@ -53,7 +57,7 @@ const Hero = () => {
     </div>
     </div>
 
-    {/* // For Mobile */}
+    {/* For Mobile */}
     <div className='h-[1850px] bg-[#FAFAFA] block lg:hidden flex flex-col justfy-center items-center'>
 
     <div className='flex flex-col justfy-center items-center pt-[70px]'>
@@ -86,14 +90,14 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-col mt-[82px]'>
-        <div className='flex flex-row space-x-[20px] ml-[40px]'>
+        <div className='flex justify-center space-x-[20px] ml-[40px]'>
             <Image src ='/images/GD 1.svg' alt='gd 1' width={238} height={615} />
             <Image src ='/images/GD 2.svg' alt='gd 2' width={238} height={615} />
             <Image src ='/images/GD 3.svg' alt='gd 3' width={238} height={615} />
             <Image src ='/images/GD 4.svg' alt='gd 4' width={238} height={615} />
         </div>
 
-        <div className='flex flex-row mt-[62px] space-x-[20px] ml-[40px]'>
+        <div className='flex mt-[62px] justify-center space-x-[20px] ml-[40px]'>
             <Image src ='/images/GD 5.svg' alt='gd 5' width={238} height={615} />
             <Image src ='/images/GD 6.svg' alt='gd 6' width={238} height={615} />
             <Image src ='/images/GD 7.svg' alt='gd 7' width={238} height={615} />
@@ -234,10 +238,10 @@ const Hero = () => {
       <p className='text-[14px] text-[#737373] text-center mt-[15px]'>Problems trying to resolve the conflict between <br />the two major realms of Classical physics: Newtonian mechanics </p>
     </div>
 
-    <div className='flex flex-row mt-[70px] gap-[10px]'>
+    <div className='flex mt-[70px] gap-[10px] justify-center'>
 
         {/* For Road Image */}
-     <div className='flex flex-col border-[0.5px] border-solid border-[#737733] h-[606px]'>
+     <div className='flex flex-col w-[328px] shadow-lg h-[606px]'>
         <Image src='/images/Road.svg' alt='Road' width={348} height={300}/>
 
         <div className='ml-[24px]'>
@@ -256,13 +260,13 @@ const Hero = () => {
          you where you work. It &apos;s only a <br /> keystroke away.</p>
          </div>
          
-         <div className='flex flex-row space-x-[80px] mt-[18px]'>
-         <div className='flex flex-row gap-[5px]'>
+         <div className='flex space-x-[80px] mt-[18px]'>
+         <div className='flex gap-[5px]'>
             <Image src='/images/clock icn.svg' alt='clock' width={16} height={16} />
             <small className='text-[12px] text-[#737373]'>22 April 2021</small>
          </div>
 
-         <div className='flex flex-row gap-[5px]'>
+         <div className='flex gap-[5px]'>
             <Image src='/images/cmnt icn.svg' alt='cmnt' width={16} height={16} />
             <small className='text-[12px] text-[#737373]'>10 comments</small>
          </div>
@@ -278,7 +282,7 @@ const Hero = () => {
      </div>
      
      {/* For Foxi Image */}
-     <div className='flex flex-col border-[0.5px] border-solid border-[#737733] h-[606px]'>
+     <div className='flex flex-col w-[328px] shadow-lg h-[606px]'>
         <Image src='/images/Foxi.svg' alt='Foxi' width={348} height={300}/>
 
         <div className='ml-[24px]'>
@@ -297,19 +301,19 @@ const Hero = () => {
          you where you work. It&npos;s only a <br /> keystroke away.</p>
          </div>
          
-         <div className='flex flex-row space-x-[80px] mt-[18px]'>
-         <div className='flex flex-row gap-[5px]'>
+         <div className='flex space-x-[80px] mt-[18px]'>
+         <div className='flex gap-[5px]'>
             <Image src='/images/clock icn.svg' alt='clock' width={16} height={16} />
             <small className='text-[12px] text-[#737373]'>22 April 2021</small>
          </div>
 
-         <div className='flex flex-row gap-[5px]'>
+         <div className='flex gap-[5px]'>
             <Image src='/images/cmnt icn.svg' alt='cmnt' width={16} height={16} />
             <small className='text-[12px] text-[#737373]'>10 comments</small>
          </div>
          </div>
 
-         <div className='flex flex-row gap-[10px] mt-[18px]'>
+         <div className='flex gap-[10px] mt-[18px]'>
          <h6 className='text-[14px] text-[#737373] font-bold'>Learn More</h6>
         <Image src='/images/arrow right.svg' alt='right arrow' width={9} height={16} />
          </div>
@@ -319,7 +323,7 @@ const Hero = () => {
      </div>
      
      {/* For Umbrella Image */}
-     <div className='flex flex-col border-[0.5px] border-solid border-[#737733] h-[606px]'>
+     <div className='flex flex-col w-[329px] shadow-lg h-[606px]'>
         <Image src='/images/Umbrellas.svg' alt='Umbrellas' width={348} height={300}/>
 
         <div className='ml-[24px]'>
@@ -501,10 +505,9 @@ const Hero = () => {
     </div>
 
     </div>
-
-
     </div>
+    
   )
 }
 
-export default Hero
+export default Page;

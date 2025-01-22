@@ -7,17 +7,39 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@media (min-width:425px) {
+ 
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+
+ 
+}
+.dropdown-list {
+  position: relative;
+  /* overflow-y: visible; */
+  z-index: 10;
+}
+.dropdown-list > div {
+  position: absolute;
+  /* overflow-y: visible; */
+  top: 100%;
+  min-width: 150px; /* Set a minimum width for consistency */
+  background: white;
+  z-index: 9999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 8px 0;
+}
+
+.dropdown-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle; /* Aligns with text */
 }
 
 @layer utilities {
