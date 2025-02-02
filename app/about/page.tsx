@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
+import Navbar from '@/components/Navbar/Navbar1';
 import Image from 'next/image';
 
 const About = () => {
@@ -23,7 +24,7 @@ const About = () => {
                 <li><Link href='/productList/pricing' aria-label='View pricing'>Pricing</Link></li> 
                 <li><Link href='/contact' aria-label='Contact us'>Contact</Link></li>     
                 </ul>
-                <div className='h-[52px] mt-[2px] ml-[115px] flex items-center gap-[45px] w-[300px] text-[14px] font-bold'>
+                <div className='h-[52px] font-bold mt-[2px] ml-[115px] flex items-center gap-[45px] w-[300px] text-[14px] font-bold'>
                     <div className='h-[22px] w-[41px] justify-center flex flex-col'>
                         <Link href="" className='text-[#23A6F0]'>
                             <span>Login</span>
@@ -149,6 +150,7 @@ const About = () => {
     </div>
     
     {/* for Mobile */}
+    <Navbar/>
     <div className='flex flex-col justify-center items-center lg:hidden'>
     <div className='flex flex-col h-[1,071px] gap-[41px]'>
     
