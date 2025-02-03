@@ -30,6 +30,7 @@ const productlist = () => {
       <div className='p-[24px] flex flex-col justify-center items-center gap-[18px]'>
             {[1, 2, 3, 4, 5].map((id) => (
               <Image 
+              key={id}
               src={`/images/shopcard${id}.svg`}
               alt={`shopcard${id}`}
               width={332}
@@ -68,6 +69,7 @@ const productlist = () => {
         {[1, 2, 4,].map ((id) => (
         
            <Image 
+           key={id}
            src={`/images/SGD ${id}.svg`}
            alt={`SGD ${id}`}
            width={328}
